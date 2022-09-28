@@ -6,7 +6,7 @@ const render     = require('./lib/HtmlRenderer');
 const fs         = require('fs');
 const path       = require('path');
 const OUTPUT_DIR = path.resolve(__dirname, 'dist');
-const distPath   = path.join(OUTPUT_DIR, 'team.html');
+const distPath   = path.join(OUTPUT_DIR, 'dev-team.html');
 const employees  = [];
 
 const managerQuestions = [
@@ -112,7 +112,7 @@ const internQuestions = [
 
         type: 'input',
         message: 'University: ',
-        name: 'internsUniversity',
+        name: 'internUniversity',
 
     }
 
@@ -153,7 +153,7 @@ function makeEngineer() {
         employees.push(new Engineer(res.engineerName,
                                     res.engineerId,
                                     res.engineerEmail,
-                                    res.engineerGitHub));
+                                    res.engineerGithub));
 
         makeTeam();
 
