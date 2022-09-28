@@ -10,11 +10,20 @@ Program uses inquirer to prompt user for information about the dev team. Once us
 
 ### Dependencies
 
-Lots...
+bootstrap: 5.2.1
+inquirer: 8.2.4
+jest: 29.0.3
+nodemon: 2.0.20
 
 ### Executing program
 
-Application is hosted on Github pages at: https://hale-bopp97.github.io/???TODO
+use 'node index.js' to start the program.
+
+Enter the manager's details.
+
+Select engineers or interns from the list and enter their corrisponding details. 
+
+Select Generate List to create the web page that will end up in the /dist directory.
 
 ## Authors
 
@@ -32,6 +41,6 @@ LinkedIn: https://www.linkedin.com/in/matthew-hendricks-029a25a8/
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
-![screen capture of site]()
+![screen capture of site](https://github.com/hale-bopp97/Dev-Team-Generator/blob/main/assets/Capture.JPG?raw=true)
 
 ![](https://github.com/hale-bopp97/Dev-Team-Generator/blob/main/assets/Untitled_%20Sep%2027,%202022%205_33%20PM.gif?raw=true)
